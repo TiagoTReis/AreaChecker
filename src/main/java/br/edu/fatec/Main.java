@@ -29,6 +29,9 @@ public class Main {
         Calculable Hexagon = shapeFactoryImpl.getShape(ShapeType.Hexagon, new Double[]{6.0});
         System.out.printf("Hexagon area: %.2f%n", Hexagon.calculateArea());
 
+        Calculable Diamond = shapeFactoryImpl.getShape(ShapeType.Diamond, new Double[]{5.0 , 4.0});
+        System.out.println("Diamond area: "+ Diamond.calculateArea());
+
 
 
 

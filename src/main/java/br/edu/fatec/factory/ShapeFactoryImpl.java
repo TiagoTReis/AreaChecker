@@ -26,6 +26,10 @@ public class ShapeFactoryImpl implements ShapeFactory {
 
             case Hexagon:
                 return new Hexagon(values[0]);
+
+            case Diamond:
+                return new Diamond(values[0], values[1]);
+
         }
         return result;
     }
