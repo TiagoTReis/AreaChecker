@@ -8,6 +8,9 @@ public class ShapeFactoryImpl implements ShapeFactory {
         switch (type) {
             case Square:
                 return new Square(values[0]);
+
+            case Rectangle:
+                return new Rectangle(values[0], values[1]);
         }
         return result;
     }
