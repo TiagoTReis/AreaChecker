@@ -17,6 +17,9 @@ public class Main {
         Calculable circle = shapeFactoryImpl.getShape(ShapeType.Circle, new Double[]{4.0 , 2.0});
         System.out.println("Circle area: "+ circle.calculateArea());
 
+        Calculable triangle = shapeFactoryImpl.getShape(ShapeType.Triangle, new Double[]{5.0 ,7.0});
+        System.out.println("Triangle area: "+triangle.calculateArea());
+
 
 
 
