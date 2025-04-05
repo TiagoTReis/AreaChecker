@@ -30,6 +30,9 @@ public class ShapeFactoryImpl implements ShapeFactory {
             case Diamond:
                 return new Diamond(values[0], values[1]);
 
+            case Cube:
+                return new Cube(values[0]);
+
         }
         return result;
     }

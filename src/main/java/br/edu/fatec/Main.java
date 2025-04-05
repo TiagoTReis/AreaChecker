@@ -32,6 +32,9 @@ public class Main {
         Calculable Diamond = shapeFactoryImpl.getShape(ShapeType.Diamond, new Double[]{5.0 , 4.0});
         System.out.println("Diamond area: "+ Diamond.calculateArea());
 
+        Calculable Cube = shapeFactoryImpl.getShape(ShapeType.Cube, new Double[]{4.0});
+        System.out.println("Cube area: "+ Cube.calculateArea());
+
 
 
 
