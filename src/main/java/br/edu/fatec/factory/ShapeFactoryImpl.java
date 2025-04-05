@@ -20,6 +20,9 @@ public class ShapeFactoryImpl implements ShapeFactory {
 
             case Parallelogram:
                 return new Parallelogram(values[0], values[1]);
+
+            case Trapezium:
+                return new Trapezo(values[0],values[1],values[2]);
         }
         return result;
     }

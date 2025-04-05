@@ -23,6 +23,9 @@ public class Main {
         Calculable parallelogram = shapeFactoryImpl.getShape(ShapeType.Parallelogram, new Double[]{8.0 , 3.0});
         System.out.println("Parallelogram area: " + parallelogram.calculateArea());
 
+        Calculable trapezo = shapeFactoryImpl.getShape(ShapeType.Trapezium, new Double[]{5.0 , 4.0 , 5.0});
+        System.out.println("Trapezo area: "+ trapezo.calculateArea());
+
 
 
 
