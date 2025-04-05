@@ -1,4 +1,4 @@
 package br.edu.fatec.factory;
 
-public class ShapeType {
+public enum ShapeType {
 }
