@@ -26,6 +26,13 @@ public class Main {
         Calculable trapezo = shapeFactoryImpl.getShape(ShapeType.Trapezium, new Double[]{5.0 , 4.0 , 5.0});
         System.out.println("Trapezo area: "+ trapezo.calculateArea());
 
+        Calculable Hexagon = shapeFactoryImpl.getShape(ShapeType.Hexagon, new Double[]{6.0});
+        System.out.printf("Hexagon area: %.2f%n", Hexagon.calculateArea());
+
+
+
+
+
 
 
 

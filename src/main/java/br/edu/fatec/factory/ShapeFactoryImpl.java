@@ -23,6 +23,9 @@ public class ShapeFactoryImpl implements ShapeFactory {
 
             case Trapezium:
                 return new Trapezo(values[0],values[1],values[2]);
+
+            case Hexagon:
+                return new Hexagon(values[0]);
         }
         return result;
     }
