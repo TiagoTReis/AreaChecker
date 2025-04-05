@@ -17,6 +17,9 @@ public class ShapeFactoryImpl implements ShapeFactory {
 
             case Triangle:
                 return new Triangle(values[0], values[1]);
+
+            case Parallelogram:
+                return new Parallelogram(values[0], values[1]);
         }
         return result;
     }

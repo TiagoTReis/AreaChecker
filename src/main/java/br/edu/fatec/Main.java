@@ -20,6 +20,9 @@ public class Main {
         Calculable triangle = shapeFactoryImpl.getShape(ShapeType.Triangle, new Double[]{5.0 ,7.0});
         System.out.println("Triangle area: "+triangle.calculateArea());
 
+        Calculable parallelogram = shapeFactoryImpl.getShape(ShapeType.Parallelogram, new Double[]{8.0 , 3.0});
+        System.out.println("Parallelogram area: " + parallelogram.calculateArea());
+
 
 
 
