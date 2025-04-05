@@ -11,6 +11,9 @@ public class ShapeFactoryImpl implements ShapeFactory {
 
             case Rectangle:
                 return new Rectangle(values[0], values[1]);
+
+            case Circle:
+                return new Circle(values[0], values[1]);
         }
         return result;
     }
